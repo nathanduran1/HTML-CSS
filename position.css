@@ -1,0 +1,65 @@
+body{
+	height: 3000px;
+	padding-top: 60px;
+	padding-left: 80px;
+}
+
+.header-div{
+	background-color: black;
+	color: white;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 100;
+}
+
+.side-bar-div{
+	background-color: green;
+	color: white;
+	width: 70px;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.absolute-div {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: red;
+	color: white;
+}
+
+.position-absolute-div{
+	position: absolute;
+	right: 10px;
+	top: 60px;
+
+	background-color: red;
+	color: white;
+}
+
+.first-div {
+	background-color: lightblue;
+	height: 200px;
+	width: 200px;
+}
+
+.second-div{
+	background-color: lightpink;
+	height: 200px;
+	width: 200px;
+
+	position: relative;
+}
+
+.position-div {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background-color: black;
+	color: white;
+}

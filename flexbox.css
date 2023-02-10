@@ -1,0 +1,128 @@
+.flexbox{
+	display: flex;
+	flex-direction: row;
+}
+
+.div1{
+	background-color: lightblue;
+}
+
+.div2{
+	background-color: lightpink;
+}
+
+.second-flexbox{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.div3{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.div4{
+	background-color: lightpink;
+	flex: 1;
+}
+
+.third-flexbox{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.div5{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.div6{
+	background-color: lightpink;
+	flex: 1;
+}
+
+.div7{
+	background-color: lightblue;
+	flex: 2;
+}
+
+.fourth-flexbox{
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	margin-top: 30px;
+	justify-content: end;
+}
+
+.div8{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.div9{
+	background-color: lightpink;
+	width: 100px;
+}
+
+.div10{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.fifth-flexbox{
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.div11{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.div12{
+	background-color: lightpink;
+	width: 100px;
+}
+
+.div13{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.sixth-flexbox{
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.div14{
+	background-color: lightblue;
+	width: 100px;
+}
+
+.div15{
+	background-color: lightpink;
+	width: 100px;
+}
+
+.div16{
+	background-color: lightblue;
+	width: 100px;
+}

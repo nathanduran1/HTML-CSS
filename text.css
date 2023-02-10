@@ -1,0 +1,73 @@
+p{
+			font-family: Roboto; /*sets fonts of all paragraphs to Arial, now not needed in every style block*/
+			margin-top: 0px;
+			margin-bottom: 0px; /*will auto reset all margins for all paragraphs to 0*/
+		}
+
+		.video-title{
+			/*font-family: Arial; /*changes the font of the text, default is Times New Roman*/
+			font-size: 18px;
+			font-weight: bold;
+			/*font-style: italic;*/
+			/*text-align: left; /*property to align text to left, right, or center*/
+			width: 280px; /*setting a width with text forces text onto the next line*/
+			line-height: 24px; /*adjusts spacing between the lines*/
+			margin-bottom: 4px; /*removing so that spacing can be fixed, since it comes with 14px default,
+			after that, can set a more precise margin number*/
+		}
+		
+		.video-stats{
+			/*font-family: Arial;*/
+			font-size: 14px;
+			color: #606060; /*inspected page to get correct color*/
+			/*margin-top: 0px;*/
+			margin-bottom: 20px; /*want to add and adjust this for every line added underneath it*/
+		}
+
+		.channel-name{
+			/*font-family: Arial;*/
+			font-size: 14px;
+			color: #606060; /*inspected page to get correct color*/
+			/*margin-top: 0px;*/
+			margin-bottom: 20px;
+		}
+
+		.video-description{
+			/*font-family: Arial;*/
+			font-size: 14px;
+			color: #606060; /*inspected page to get correct color*/
+			width: 280px;
+			line-height: 20px;
+			/*margin-top: 0px;*/
+			margin-bottom: 100px;
+		}
+
+		.some-description{
+			font-size: 14px;
+			color: white;
+			background-color: #e34140;
+			text-align: center;
+			padding-top: 18px;
+			padding-bottom: 18px;
+			/*text-decoration: underline;*/
+		}
+
+		.some-link{
+			font-size: 14px;
+			color: black;
+			cursor: pointer;
+		}
+
+		.span-example{
+			color: red;
+			margin-left: 12px; /*adds multiple spaces in between words*/
+		}
+
+		.span-example:hover{
+			text-decoration: underline;
+		}
+
+		.shop-link:hover{
+			text-decoration: underline;
+			cursor: pointer;
+		}

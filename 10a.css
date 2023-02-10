@@ -1,0 +1,222 @@
+p{
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-family: Roboto, Arial;
+	padding-left: 10px;
+}
+
+.first-div{
+	width: 400px;
+	height: 100px;
+	border-style: none;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+	margin-bottom: 10px;
+}
+
+.first-horizontal-div{ /*could use margin-top to vertically align divs*/
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.profile-image{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 40px;
+}
+
+.second-horizontal-div{
+	width: 220px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profile-name{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.profile-description{
+	font-size: 16px;
+	color: #8d8d8d;
+}
+
+.profile-rank{
+	font-size: 14px;
+	color: #8d8d8d;
+}
+
+.third-vertical-div{
+	display: inline-block;
+}
+
+.third-horizontal-div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.follow-button{
+	background-color: #0088DB;
+	border-style: none;
+	border-radius: 4px;
+	color: white;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 8px 12px 8px 12px;
+	cursor: pointer;
+}
+
+.follow-button:hover{
+	opacity: 0.7;
+}
+
+.follow-button:active{
+	opacity: 0.3;
+}
+
+.second-div{
+	width: 400px;
+	height: 110px;
+	border-style: none;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+	margin-bottom: 10px;
+}
+
+.the-first-horizontal-div{
+	display: inline-block;
+}
+
+.some-video-image{
+	width: 160px;
+	height: 108px;
+	object-fit: cover;
+	object-position: top;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+.the-second-horizontal-div{
+	display: inline-block;
+	width: 230px;
+	vertical-align: top;
+	margin-top: 8px;
+}
+
+.the-first-vertical-div{
+	margin-bottom: 8px;
+}
+
+.video-title{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.the-second-vertical-div{
+}
+
+.channel-name{
+	font-size: 12px;
+	color: #6f6f6f;
+}
+
+.the-third-vertical-div{
+}
+
+.video-stats{
+	font-size: 12px;
+	color: #6f6f6f;
+}
+
+.profile-div{
+	height: 245px;
+	width: 150px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+	border-radius: 6px;
+	margin-right: 12px;
+	display: inline-block;
+}
+
+.profile-image-last{
+	height: 140px;
+	width: 150px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.name-text{
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 6px;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+.mutual-friends{
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	padding-left: 2px;
+	vertical-align: middle;
+}
+
+.add-friend-button{
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	background-color: #006cdf;
+	border-style: none;
+	border-radius: 4px;
+	padding: 8px 14px 8px 14px;
+	margin-left: 6px;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.add-friend-button:hover{
+	opacity: 0.7;
+}
+
+.add-friend-button:active{
+	opacity: 0.3;
+}
+
+.last-first-vertical-div{ /*majority of code for elements in these divs is above*/
+}
+
+.last-second-vertical-div{
+}
+
+.last-third-vertical-div{
+	margin-top: 4px;
+}
+
+.last-first-horizontal-div{
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.mutual-friend-image{
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	vertical-align: middle;
+}
+
+.last-second-horizontal-div{
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.last-fourth-vertical-div{
+	margin-top: 8px;
+}

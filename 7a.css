@@ -1,0 +1,123 @@
+.some-image{
+	width: 200px;
+	border-radius: 4px;
+}
+
+.second-image{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.third-image{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.some-search{
+	border-color: #9b9b9b;
+	border-style: solid;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 8px 6px;
+	width: 175px;
+}
+
+.second-search{
+	border-color: #9b9b9b;
+	border-style: none;
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: Arial;
+	padding: 10px 12px;
+	width: 400px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	margin-left: 20px;
+}
+
+.email-text{
+	font-family: Arial;
+	font-size: 14px;
+	color: #595959;
+	margin-bottom: 6px;
+}
+
+.linkedin-signup{
+	width: 290px;
+	padding-top: 4px;
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	margin-bottom: 2px;
+}
+
+.agree-text{
+	font-family: Arial;
+	font-size: 12px;
+	color: #595959;
+	margin-bottom: 14px;
+}
+
+.agree-button{
+	background-color: #0057C3;
+	color: white;
+	border-style: none;
+	border-radius: 30px;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 10px 118px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.agree-button:hover{
+	opacity: 0.7;
+}
+
+.agree-button:active{
+	opacity: 0.3;
+}
+
+.profile-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	object-fit: cover;
+	object-position: top;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.post-text{
+	vertical-align: middle;
+	font-family: Arial;
+	font-size: 12px;
+	width: 175px;
+	border-style: none;
+}
+
+.last-button{
+	background-color: #008DDB;
+	color: white;
+	border-style: none;
+	border-radius: 20px;
+	vertical-align: middle;
+	padding: 6px 12px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.last-button:hover{
+	opacity: 0.7;
+}
+
+.last-button:active{
+	opacity: 0.3;
+}

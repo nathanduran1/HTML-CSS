@@ -1,0 +1,245 @@
+p{
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		.tahoma-font{
+			font-family: Tahoma;
+			font-weight: bold;
+			font-size: 24px;
+			margin-bottom: 30px;
+		}
+
+		.deals-text{
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 24px;
+			margin-bottom: 6px;
+		}
+
+		.sales-text{
+			font-family: Arial;
+			font-weight: bold;
+			font-style: italic;
+			color: red;
+			font-size: 16px;
+			margin-bottom: 30px;
+		}
+
+		.course-text{
+			font-family: Verdana;
+			font-weight: bold;
+			font-size: 20px;
+			margin-bottom: 4px;
+		}
+
+		.difficulty-text{
+			font-family: Verdana;
+			font-size: 14px;
+			color: #6f6f6f;
+			margin-bottom: 20px;
+		}
+
+		.course-description{
+			font-family: Verdana;
+			font-size: 14px;
+			width: 250px;
+			margin-bottom: 16px;
+		}
+
+		.get-started-button{
+			background-color: green;
+			color: white;
+			font-family: Verdana;
+			font-size: 14px;
+			border: none;
+			border-radius: 4px;
+			padding: 8px 10px;
+			cursor: pointer;
+			margin-bottom: 30px
+		}
+
+		.get-started-button:hover{
+			opacity: 0.7;
+		}
+
+		.get-started-button:active{
+			opacity: 0.3;
+		}
+
+		.shopping-text{
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 24px;
+			text-align: center;
+			margin-bottom: 16px;
+		}
+
+		.apple-text{
+			font-family: Arial;
+			font-size: 14px;
+			text-align: center; /*this will center text in the box, not window*/
+			line-height: 26px;
+			width: 220px;
+			margin: 0 auto; /*looked this up, but centers box in the window*/
+			margin-bottom: 30px;
+		}
+
+		.learn-more-text{
+			color: blue;
+			/*text-decoration: underline;*/
+			cursor: pointer;
+		}
+
+		.new-text{
+			font-family: Arial;
+			font-weight: bold;
+			color: darkorange;
+			font-size: 18px;
+			text-align: center;
+			margin-bottom: 8px;
+		}
+
+		.macbook-text{
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 24px;
+			text-align: center;
+			margin-bottom: 2px;
+		}
+
+		.supercharged-text{
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 34px;
+			text-align: center;
+			margin-bottom: 8px;
+		}
+
+		.price-text{
+			font-family: Arial;
+			font-size: 16px;
+			text-align: center;
+			margin-bottom: 8px;
+		}
+
+		.buy-button{
+			background-color: #006cff;
+			color: white;
+			border: none;
+			border-radius: 20px;
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 14px;
+			padding: 8px 14px;
+			display: block; /*looked this help, helped center the button*/
+			margin: 0 auto;
+			cursor: pointer;
+			margin-bottom: 30px;
+		}
+
+		.buy-button:hover{
+			opacity: 0.7;
+		}
+
+		.buy-button:active{
+			opacity: 0.3;
+		}
+
+		.price{
+			font-family: Arial;
+			font-size: 30px;
+			margin-bottom: 2px;
+		}
+
+		.currency-text{
+			font-size: 16px;
+			color: gray;
+		}
+
+		.percentage-text{
+			font-family: Arial;
+			font-size: 14px;
+			color: green;
+			margin-bottom: 2px;
+		}
+
+		.after-hours-text{
+			font-family: Arial;
+			font-size: 14px;
+			color: gray;
+			margin-bottom: 30px;
+		}
+
+		.second-percentage{
+			color: #da0000;
+		}
+
+		.handle-text{
+			/*color: white;
+			text-align: left;*/
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 14px;
+			margin-bottom: 2px;
+		}
+
+		.time-tweeted{
+			color: gray;
+			font-weight: normal;
+		}
+
+		.tweet-text{
+			font-family: Arial;
+			/*color: white;
+			text-align: left;*/
+			font-size: 13px;
+			width: 425px;
+			margin-bottom: 14px;
+		}
+
+		.rest-of-tweet{
+			font-family: Arial;
+			/*color: white;
+			text-align: left;*/
+			font-size: 13px;
+			margin-bottom: 30px;
+		}
+
+		.user{
+			color: #09f;
+			cursor: pointer;
+		}
+
+		/*.some-button{
+			background-color: #000076;
+			border-radius: 4px;
+		}
+
+		.handle-text2{
+			font-family: Arial;
+			font-weight: bold;
+			font-size: 14px;
+			margin-bottom: 2px;
+		}
+
+		.time-tweeted2{
+			color: gray;
+			font-weight: normal;
+		}
+		
+		.tweet-text2{
+			font-family: Arial;
+			font-size: 13px;
+			width: 425px;
+			margin-bottom: 14px;
+		}
+		
+		.some-try{ // tried a lot of stuff not much worked, closest was setting indent to some -px and padding to some px
+			word-break: normal;
+		}
+		
+		.user2{
+			color: #09f;
+			cursor: pointer;
+		}*/

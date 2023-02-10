@@ -1,0 +1,84 @@
+<style>
+		/*CSS comments require different syntax*/
+		/*button*/.subscribe-button {/*CSS selector - shows which elements are targeted*/
+		/*CSS property - shows what is being changed: CSS value - what the property is being changed to*/
+		/*space is called margin*/
+		background-color: #c80013;
+		color: white;
+		border: none;
+		height: 36px;
+		width: 110px;
+		border-radius: 2px; /*higher number means rounder corners*/
+		cursor: pointer;
+		margin-right: 8px;
+		transition: opacity 0.15s; /*what you want to transition and for how long*/
+		}
+
+		.subscribe-button:hover { /*hover is a pseudo class*/
+			/*background-color: green; /*when not hovering, those styles apply, when hovering, these now apply*/
+			opacity: 0.7; /*how see through an element is, from 0 to 1, 1 is normal and lower number is lighter*/
+		}
+
+		.subscribe-button:active { /*active is a pseudo class*/
+			/*background-color: blue; /*activates when it is clicked on*/
+			opacity: 0.4;
+		}
+
+		.join-button {
+		background-color: white;
+		color: #06f;
+		border-color: #06f;
+		border-style: solid;
+		border-width: 1px;
+		height: 36px;
+		width: 60px;
+		border-radius: 2px;
+		cursor: pointer;
+		margin-right: 8px;
+		transition: background-color 0.15s,
+		color 0.15,
+		opacity 0.15s,;
+		}
+
+		.join-button:hover {
+			background-color: #06f;
+			color: white;
+		}
+
+		.join-button:active {
+			opacity: 0.4;
+		}
+
+		.tweet-button {
+		background-color: #0098ff;
+		color: white;
+		border: none;
+		height: 36px;
+		width: 70px;
+		border-radius: 18px; /*trick is to set it equal to half the height or width, whichever is smaller*/
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;
+		/*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*takes four values, horizontal position of shadow, vertical, blur, and color*/
+		/*rgba() same as rgb(), but includes a, which can modify the opacity of a color*/
+		transition: box-shadow 0.15s;
+		}
+
+		.tweet-button:hover {
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+		}
+
+</style> <!-- style element, is not visible but can modify other code-->
+
+<button class = "subscribe-button"><!--class attribute allows labeling of HTML elements-->
+		<!--since we want to style another button, we have to tell that style block which button that style is for-->
+		SUBSCRIBE
+</button>
+
+<button class = "join-button">
+		JOIN
+</button>
+
+<button class = "tweet-button">
+		Tweet
+</button>

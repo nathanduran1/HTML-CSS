@@ -1,0 +1,133 @@
+body{
+    height: 3000px;
+}
+
+.an-x-div{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: black;
+    color: white;
+
+    font-family: Arial;
+    font-size: 14px;
+
+    padding: 8px 12px 8px 12px;
+
+    border-style: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+.gray-box-div{
+    width: 320px;
+    height: 180px;
+
+    background-color: gray;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.another-gray-box-div {
+    width: 320px;
+    height: 180px;
+    background-color: gray;
+    position: fixed;
+    bottom: 200px;
+    right: 10px;
+}
+
+.another-x-div {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 8px 12px 8px 12px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.time-stamp-div{
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+
+    font-family: Arial;
+    font-size: 14px;
+
+    background-color: black;
+    color: white;
+
+    padding: 4px 6px 4px 6px;
+}
+
+.purchase-div {
+    display: inline-block;
+
+    position: relative;
+}
+
+.pup-image {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.percentage-div{
+    background-color: black;
+    color: white;
+
+    font-family: Arial;
+    font-size: 12px;
+
+    padding: 4px 8px 4px 8px;
+
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.border-div{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 80px;
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart-button {
+    font-family: Arial;
+    font-size: 12px;
+
+    padding: 4px 8px 4px 8px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    background-color: #c4c4c4;
+
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    opacity: 0.7;
+}
+
+.add-to-cart-button:active {
+    opacity: 0.5;
+}

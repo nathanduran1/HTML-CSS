@@ -1,0 +1,98 @@
+.first-flex-box{
+	display: flex;
+	flex-direction: row;
+	width: 370px;
+	border-style: solid;
+	border-color: #A6A6A6;
+	border-width: 1px;
+}
+
+.left-side{
+	width: 46px;
+	margin-left: 10px;
+}
+
+.profile-image{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 20px;
+	padding-top: 4px;
+}
+
+.right-side{
+	flex: 1;
+}
+
+.first-vertical{
+	display: flex;
+	flex-direction: row;
+	padding-top: 6px;
+	margin-bottom: 6px;
+}
+
+.profile-text{
+	font-family: Roboto, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.profile-handle-text{
+	font-family: Roboto, Arial;
+	font-size: 14px;
+	color: #7D7D7D;
+	margin-left: 6px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.second-vertical{
+	margin-bottom: 10px;
+}
+
+.status-description{
+	font-family: Roboto, Arial;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.third-vertical{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #D2D2D2;
+	border-width: 1px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.color{
+	background-color: #D2D2D2;
+	width: 80px;
+}
+
+.link-description{
+	flex: 1;
+	margin: 10px 14px 10px 14px;
+}
+
+.web-address{
+	font-family: Roboto, Arial;
+	color: #878787;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.web-address-description{
+	font-family: Roboto, Arial;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

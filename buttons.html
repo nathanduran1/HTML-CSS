@@ -1,0 +1,50 @@
+<style>
+		/*CSS comments require different syntax*/
+		/*button*/.subscribe-button {/*CSS selector - shows which elements are targeted*/
+		/*CSS property - shows what is being changed: CSS value - what the property is being changed to*/
+		/*space is called margin*/
+		background-color: #c80013;
+		color: white;
+		border: none;
+		height: 36px;
+		width: 110px;
+		border-radius: 2px; /*higher number means rounder corners*/
+		cursor: pointer;
+		margin-right: 8px;}
+
+		.join-button {
+		background-color: white;
+		color: #06f;
+		border-color: #06f;
+		border-style: solid;
+		border-width: 1px;
+		height: 36px;
+		width: 60px;
+		border-radius: 2px;
+		cursor: pointer;
+		margin-right: 8px;}
+
+		.tweet-button {
+		background-color: #0098ff;
+		color: white;
+		border: none;
+		height: 36px;
+		width: 70px;
+		border-radius: 18px; /*trick is to set it equal to half the height or width, whichever is smaller*/
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;}
+</style> <!-- style element, is not visible but can modify other code-->
+
+<button class = "subscribe-button"><!--class attribute allows labeling of HTML elements-->
+		<!--since we want to style another button, we have to tell that style block which button that style is for-->
+		SUBSCRIBE
+</button>
+
+<button class = "join-button">
+		JOIN
+</button>
+
+<button class = "tweet-button">
+		Tweet
+</button>

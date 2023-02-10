@@ -1,0 +1,167 @@
+body{
+	background-color: #ebebeb;
+}
+
+p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	font-family: Arial;
+}
+
+button{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.header-flex-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	height: 55px;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+
+	background-color: white;
+}
+
+.left-section{
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+
+	width: 150px;
+}
+
+.profile-image{
+	height: 50px;
+	width: 50px;
+
+	border-radius: 25px;
+
+	object-fit: cover;
+	object-position: top;
+}
+
+.profile-name{
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.profile-name:hover{
+	text-decoration: underline;
+}
+
+.middle-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex: 1;
+}
+
+.search-bar{
+	height: 20px;
+	max-width: 500px;
+
+	flex: 1;
+
+	border-radius: 20px;
+	border-style: none;
+
+	background-color: #e6e6e6;
+
+	padding: 4px 0px 4px 14px;
+}
+
+.search-bar::placeholder{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+
+	color: black;
+}
+
+.search-button{
+	margin-left: 10px;
+
+	padding: 5px 7px 5px 7px;
+
+	border-radius: 20px;
+	border-style: none;
+
+	background-color: #e6e6e6;
+
+	cursor: pointer;
+}
+
+.search-button:hover{
+	opacity: 0.8;
+}
+
+.search-button:active{
+	opacity: 0.5;
+}
+
+.search-icon{
+	height: 18px;
+	width: 18px;
+
+	margin-top: 2px;
+}
+
+.right-section{
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+
+	width: 190px;
+}
+
+.add-friend-button{
+	background-color: #066dd4;
+	color: white;
+
+	padding: 8px 10px 8px 10px;
+
+	border-style: none;
+	border-radius: 4px;
+
+	cursor: pointer;
+}
+
+.add-friend-button:hover{
+	opacity: 0.8;
+}
+
+.add-friend-button:active{
+	opacity: 0.5;
+}
+
+.message-button{
+	background-color: #d5d5d5;
+
+	padding: 8px 10px 8px 10px;
+
+	margin-left: 10px;
+
+	border-style: none;
+	border-radius: 4px;
+
+	font-weight: bold;
+
+	cursor: pointer;
+}
+
+.message-button:hover{
+	opacity: 0.8;
+}
+
+.message-button:active{
+	opacity: 0.5;
+}
